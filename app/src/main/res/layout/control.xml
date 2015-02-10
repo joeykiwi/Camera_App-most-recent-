@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/control_backgroud">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left">
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silent"
+            android:id="@+id/silent_button"
+            android:textOn="Silent"
+            android:textOff="Silent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_gravity="right">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Album"
+            android:id="@+id/album_button" />
+
+        <ToggleButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Preview"
+            android:id="@+id/preview_button"
+            android:textOff="Camera"
+            android:textOn="Camera" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Snap"
+            android:id="@+id/snap_button"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+</LinearLayout>
